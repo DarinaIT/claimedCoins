@@ -1,0 +1,154 @@
+[17-Aug-2021 17:47:00 Europe/Sofia] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null in /home/targfdgs/targovec.bg/darina/kudanDarina/Claimed_coin.php:18
+Stack trace:
+#0 /home/targfdgs/targovec.bg/darina/kudanDarina/Claimed_coin.php(18): PDOStatement->execute()
+#1 /home/targfdgs/targovec.bg/darina/kudanDarina/index.php(8): Claimed_coin->claimCoins(Array)
+#2 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/Claimed_coin.php on line 18
+[17-Aug-2021 17:47:59 Europe/Sofia] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null in /home/targfdgs/targovec.bg/darina/kudanDarina/Claimed_coin.php:18
+Stack trace:
+#0 /home/targfdgs/targovec.bg/darina/kudanDarina/Claimed_coin.php(18): PDOStatement->execute()
+#1 /home/targfdgs/targovec.bg/darina/kudanDarina/index.php(8): Claimed_coin->claimCoins(Array)
+#2 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/Claimed_coin.php on line 18
+[17-Aug-2021 17:48:24 Europe/Sofia] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null in /home/targfdgs/targovec.bg/darina/kudanDarina/Claimed_coin.php:18
+Stack trace:
+#0 /home/targfdgs/targovec.bg/darina/kudanDarina/Claimed_coin.php(18): PDOStatement->execute()
+#1 /home/targfdgs/targovec.bg/darina/kudanDarina/index.php(8): Claimed_coin->claimCoins(Array)
+#2 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/Claimed_coin.php on line 18
+[17-Aug-2021 17:50:44 Europe/Sofia] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null in /home/targfdgs/targovec.bg/darina/kudanDarina/Claimed_coin.php:18
+Stack trace:
+#0 /home/targfdgs/targovec.bg/darina/kudanDarina/Claimed_coin.php(18): PDOStatement->execute()
+#1 /home/targfdgs/targovec.bg/darina/kudanDarina/index.php(8): Claimed_coin->claimCoins(Array)
+#2 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/Claimed_coin.php on line 18
+[17-Aug-2021 18:20:24 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetchrow() in /home/targfdgs/targovec.bg/darina/kudanDarina/Voucher.php:14
+Stack trace:
+#0 /home/targfdgs/targovec.bg/darina/kudanDarina/index.php(8): Voucher->getAllVouchersCodes()
+#1 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/Voucher.php on line 14
+[17-Aug-2021 18:20:40 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetchRow() in /home/targfdgs/targovec.bg/darina/kudanDarina/Voucher.php:14
+Stack trace:
+#0 /home/targfdgs/targovec.bg/darina/kudanDarina/index.php(8): Voucher->getAllVouchersCodes()
+#1 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/Voucher.php on line 14
+[17-Aug-2021 18:33:11 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined method Voucher::getAllVouchersCodes() in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 8
+[18-Aug-2021 02:56:02 Europe/Sofia] PHP Warning:  require_once(/home/targfdgs/targovec.bg/darina/vendor/autoload.php): failed to open stream: No such file or directory in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 34
+[18-Aug-2021 02:56:02 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '/home/targfdgs/targovec.bg/darina/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 34
+[18-Aug-2021 02:56:26 Europe/Sofia] PHP Warning:  require_once(/home/targfdgs/targovec.bg/darina/vendor/autoload.php): failed to open stream: No such file or directory in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 34
+[18-Aug-2021 02:56:26 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '/home/targfdgs/targovec.bg/darina/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 34
+[18-Aug-2021 02:57:19 Europe/Sofia] PHP Fatal error:  Uncaught Error: Class 'Swift_SmtpTransport' not found in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 37
+[18-Aug-2021 02:57:24 Europe/Sofia] PHP Fatal error:  Uncaught Error: Class 'Swift_SmtpTransport' not found in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 37
+[18-Aug-2021 03:00:49 Europe/Sofia] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 39
+[18-Aug-2021 03:01:58 Europe/Sofia] PHP Fatal error:  Uncaught Error: Class 'Swift_SmtpTransport' not found in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 37
+[18-Aug-2021 03:24:40 Europe/Sofia] PHP Fatal error:  Uncaught Error: Class 'Swift_SmtpTransport' not found in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 37
+[18-Aug-2021 03:24:56 Europe/Sofia] PHP Fatal error:  Uncaught Error: Class 'Swift_SmtpTransport' not found in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 37
+[18-Aug-2021 04:19:12 Europe/Sofia] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 56
+[18-Aug-2021 04:38:25 Europe/Sofia] PHP Fatal error:  Uncaught Error: Class 'Swift_SmtpTransport' not found in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 37
+[18-Aug-2021 04:39:30 Europe/Sofia] PHP Warning:  require_once(/home/targfdgs/targovec.bg/darina/vendor/vendoeEmail/autoload.php): failed to open stream: No such file or directory in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 34
+[18-Aug-2021 04:39:30 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '/home/targfdgs/targovec.bg/darina/vendor/vendoeEmail/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 34
+[18-Aug-2021 04:41:48 Europe/Sofia] PHP Warning:  require_once(/home/targfdgs/targovec.bg/darina/vendor/vendoeEmail/autoload.php): failed to open stream: No such file or directory in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 35
+[18-Aug-2021 04:41:48 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '/home/targfdgs/targovec.bg/darina/vendor/vendoeEmail/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 35
+[18-Aug-2021 04:44:00 Europe/Sofia] PHP Warning:  require_once(/home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendoeEmail/autoload.php): failed to open stream: No such file or directory in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 35
+[18-Aug-2021 04:44:00 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '/home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendoeEmail/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 35
+[18-Aug-2021 04:45:42 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined method Swift_SmtpTransport::newyInstance() in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 38
+[18-Aug-2021 04:46:36 Europe/Sofia] PHP Fatal error:  Uncaught Swift_TransportException: Failed to authenticate on SMTP server with username "darina@booll.bg" using 2 possible authenticators in /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(334): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(131): Swift_Transport_EsmtpTransport->doHeloCommand()
+#2 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(67): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/targfdgs/targovec.bg/darina/kudanDarina/index.php(54): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[18-Aug-2021 15:10:58 Europe/Sofia] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host bono.superhosting.bg [Connection refused #111] in /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->establishSocketConnection()
+#1 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(126): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(67): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/targfdgs/targovec.bg/darina/kudanDarina/json.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
+[18-Aug-2021 15:12:36 Europe/Sofia] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host bono.superhosting.bg [Connection refused #111] in /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->establishSocketConnection()
+#1 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(126): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(67): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/targfdgs/targovec.bg/darina/kudanDarina/json.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
+[18-Aug-2021 15:20:14 Europe/Sofia] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host bono.superhosting.bg [Connection refused #111] in /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->establishSocketConnection()
+#1 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(126): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(67): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/targfdgs/targovec.bg/darina/kudanDarina/json.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
+[18-Aug-2021 15:28:11 Europe/Sofia] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host bono.superhosting.bg [Connection refused #111] in /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->establishSocketConnection()
+#1 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(126): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(67): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/targfdgs/targovec.bg/darina/kudanDarina/json.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
+[18-Aug-2021 15:28:17 Europe/Sofia] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host bono.superhosting.bg [Connection refused #111] in /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->establishSocketConnection()
+#1 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(126): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(67): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/targfdgs/targovec.bg/darina/kudanDarina/json.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
+[19-Aug-2021 13:40:15 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 29
+[19-Aug-2021 13:58:03 Europe/Sofia] PHP Warning:  file_get_contents(https://...@boollcom.myshopify.com/admin/api/2021-07/gift_cards/search.json?query=last_characters:38h4): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 21
+[19-Aug-2021 16:58:41 Europe/Sofia] PHP Warning:  Illegal string offset 'gift_cards' in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 9
+[19-Aug-2021 17:01:47 Europe/Sofia] PHP Warning:  Illegal string offset 'gift_cards' in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 9
+[19-Aug-2021 17:02:13 Europe/Sofia] PHP Warning:  Use of undefined constant gift_cards - assumed 'gift_cards' (this will throw an Error in a future version of PHP) in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 9
+[19-Aug-2021 17:02:13 Europe/Sofia] PHP Warning:  Illegal string offset 'gift_cards' in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 9
+[19-Aug-2021 17:11:31 Europe/Sofia] PHP Fatal error:  Cannot use [] for reading in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 9
+[19-Aug-2021 17:11:46 Europe/Sofia] PHP Fatal error:  Cannot use [] for reading in /home/targfdgs/targovec.bg/darina/kudanDarina/index.php on line 9
+[29-Oct-2021 14:29:59 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'EMAIL' (T_STRING) in /home/targfdgs/targovec.bg/darina/kudanDarina/json.php on line 25
+[29-Oct-2021 14:31:24 Europe/Sofia] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host bono.superhosting.bg [Connection refused #111] in /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->establishSocketConnection()
+#1 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(126): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(67): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/targfdgs/targovec.bg/darina/kudanDarina/json.php(52): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
+[29-Oct-2021 14:45:08 Europe/Sofia] PHP Parse error:  syntax error, unexpected ''; Voucher code: '' (T_CONSTANT_ENCAPSED_STRING) in /home/targfdgs/targovec.bg/darina/kudanDarina/json.php on line 36
+[29-Oct-2021 14:45:12 Europe/Sofia] PHP Parse error:  syntax error, unexpected ''; Voucher code: '' (T_CONSTANT_ENCAPSED_STRING) in /home/targfdgs/targovec.bg/darina/kudanDarina/json.php on line 36
+[29-Oct-2021 14:46:15 Europe/Sofia] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host bono.superhosting.bg [Connection refused #111] in /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->establishSocketConnection()
+#1 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(126): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(67): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/targfdgs/targovec.bg/darina/kudanDarina/json.php(56): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/targfdgs/targovec.bg/darina/kudanDarina/vendor/vendorEmail/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
